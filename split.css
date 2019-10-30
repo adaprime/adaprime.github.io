@@ -185,7 +185,7 @@ body.page-template-page-fullsingle-split {
   .split-intro .tagline a:hover {
     color: #FF0000;
     transition-duration: 0.1s; }
-  .split-intro .tagline li {display:flex; width: auto; padding-bottom: 10px;}
+  .split-intro .tagline li {display:flex; width: auto; padding-bottom: 20px;}
   .split-intro .tagline .fas { padding-right: 20px; }
   .split-intro .tagline .fab { padding-right: 20px; font-weight: 400;}
 
