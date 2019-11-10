@@ -1,7 +1,7 @@
 ---
 title: About Me
-subtitle: Duet is a beautiful Jekyll portfolio theme designed to showcase your work in style. Perfect for designers, artists, photographers and developers to use for their portfolio website.
-description: Duet is a beautiful Jekyll portfolio theme.
+subtitle: Hey I'm Ada and I do stuff.
+description: uwu
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
