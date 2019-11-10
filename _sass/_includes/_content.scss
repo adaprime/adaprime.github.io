@@ -5,9 +5,9 @@
 // - - - - - - - - - - - - - - - - - -
 
 .intro {
-	
+
 	h1 {
-		
+
 		@include mq(tabletp) {
 			white-space: pre-line;
 		}
@@ -17,6 +17,11 @@
 
 	}
 }
+
+.intro .tagline li { display: flex; width: auto; }
+.intro .tagline .fas { padding-right: 40px; margin-right: 40px; }
+.intro .tagline .fab { padding-right: 40px; margin-right: 40px; }
+
 
 .content-wrap {
 
@@ -180,7 +185,7 @@
 				font-size: $p-large;
 			}
 		}
-		
+
 		tr {
 
 			&:nth-child(2n) {

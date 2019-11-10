@@ -8,7 +8,7 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Ada'
+    - title: 'Art'
       url: '/'
     - title: 'About'
       url: '/about'
