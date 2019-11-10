@@ -1,0 +1,58 @@
+---
+layout: default
+title: XYZ
+description: Level 25 Cyborg Catgirl
+featured_image: /images/social.jpg
+---
+
+<section class="intro">
+
+	<div class="wrap">
+
+		<h1>Level 25 Cyborg Catgirl</h1>
+		<p>Duet makes your work look simply awesome.</p>
+		<span>
+			<ul>
+          <li><span class="fas fa-palette"></span><a href="http://adaprime.xyz/art">Artist</a></li>
+          <li><span class="fas fa-utensils"></span><a href="https://photos.app.goo.gl/EC0Xo8rU6yoVjFQ02">Cooking anime protagonist</a></li>
+          <li><span class="fab fa-goodreads"></span><a href="https://www.goodreads.com/adaprime">Voracious reader</a></li>
+          <li><span class="fab fa-spotify"></span><a href="https://open.spotify.com/user/iigc3h04oikjixob4zn3qpfat?si=qJWoH9zoT4WQSUCW4TvaRg">Music lover</a></li>
+          <li><span class="fas fa-podcast"></span><a href="https://lists.pocketcasts.com/fb684b12-4854-41c0-aca8-b557348b513e">Podcast addict</a></li>
+          <li><span class="fab fa-instagram"></span><a href="https://instagram.com/adaprime">Selfie taker</a></li>
+          <li><span class="fab fa-steam"></span><a href="https://steamcommunity.com/id/adaprime/">Gamer girl</a></li>
+      </ul>
+
+	</div>
+
+</section>
+
+<section class="portfolio">
+
+	<div class="content-wrap portfolio-wrap">
+
+		{% for project in site.projects reversed %}
+
+		<div class="portfolio-item">
+
+			<a class="portfolio-item__link" href="{{ project.url }}">
+
+				<div class="portfolio-item__image">
+					<img src="{{ project.featured_image  }}" alt="{{ project.title }}">
+				</div>
+
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<h2 class="portfolio-item__title">{{ project.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
+					</div>
+				</div>
+
+			</a>
+
+		</div>
+
+		{% endfor %}
+
+	</div>
+
+</section>
