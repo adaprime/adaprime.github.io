@@ -2,7 +2,7 @@
 title: About Me
 subtitle: Hey I'm Ada and I do stuff.
 description: uwu
-featured_image: /images/demo/demo-landscape.jpg
+featured_image: "/images/demo/demo-landscape.jpg"
 ---
 
 ![](/images/demo/demo-landscape.jpg)

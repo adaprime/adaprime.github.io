@@ -2,7 +2,7 @@
 title: Contact
 subtitle: OwO what's this?
 description: uwu find me
-featured_image: /images/demo/demo-landscape.jpg
+featured_image: "/images/demo/demo-landscape.jpg"
 ---
 
 {% include contact-form.html %}
