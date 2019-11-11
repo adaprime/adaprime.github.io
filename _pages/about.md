@@ -1,7 +1,7 @@
 ---
-title: About Me
-subtitle: Hey I'm Ada and I do stuff.
-description: uwu
+title: About
+subtitle: Hey I'm Ada!
+description: Hi hi
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
