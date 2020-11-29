@@ -1,3 +1,5 @@
-*Ada Prime*
+Art by Ada Prime
 
-[https://adaprime.xyz](https://adaprime.xyz)
+My website :3
+
+[https://adaprime.art](https://adaprime.art)
